@@ -1,0 +1,16 @@
+{
+  "pair_id": "pair_02",
+  "prompt": "Compare two short answers and pick the one that better follows the instruction: answer in two bullet points.",
+  "sources": [
+    "Instruction requires exactly two bullet points.",
+    "Content should stay concise and on-topic."
+  ],
+  "response_a": {
+    "id": "A",
+    "text": "- First point covers the main idea clearly.\n- Second point adds a practical detail without extra paragraphs."
+  },
+  "response_b": {
+    "id": "B",
+    "text": "This answer ignores the bullet format and writes a long paragraph instead of two points."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "LLM Response Quality Rubric",
+  "version": "1.0",
+  "dimensions": [
+    {"id": "task_completion", "weight": 0.3, "scale": [1, 5], "description": "Does the response fully address the user request?"},
+    {"id": "factual_accuracy", "weight": 0.3, "scale": [1, 5], "description": "Are key claims supported by provided sources or known facts?"},
+    {"id": "instruction_adherence", "weight": 0.2, "scale": [1, 5], "description": "Does the response follow format and constraint instructions?"},
+    {"id": "clarity", "weight": 0.2, "scale": [1, 5], "description": "Is the response clear, organized, and free of unnecessary filler?"}
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "pair_001",
+  "prompt": "Summarize the article in 3 bullet points and cite the source URL.",
+  "source": "https://example.com/ai-safety-overview",
+  "response_a": "AI safety focuses on alignment, evaluation, and monitoring. Teams test models before release. Source: https://example.com/ai-safety-overview",
+  "response_b": "AI is very powerful and will change everything soon without risks."
+}

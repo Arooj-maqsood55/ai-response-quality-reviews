@@ -1,0 +1,16 @@
+{
+  "pair_id": "pair_01",
+  "prompt": "Explain how REST API validation helps frontend dashboards handle bad input.",
+  "sources": [
+    "Input validation rejects malformed payloads before database writes.",
+    "Consistent error responses let UI surfaces show actionable feedback."
+  ],
+  "response_a": {
+    "id": "A",
+    "text": "REST API validation checks request fields before processing. Invalid payloads return structured errors so dashboards can show clear messages instead of silent failures."
+  },
+  "response_b": {
+    "id": "B",
+    "text": "Validation is optional and mainly used for styling forms. Databases always correct bad data automatically, so API checks are rarely needed."
+  }
+}

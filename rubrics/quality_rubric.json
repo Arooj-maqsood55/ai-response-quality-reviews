@@ -1,0 +1,41 @@
+{
+  "name": "AI Response Quality Rubric",
+  "version": "1.0",
+  "dimensions": [
+    {
+      "id": "task_completion",
+      "label": "Task Completion",
+      "weight": 0.3,
+      "scale": { "min": 1, "max": 5 },
+      "guidance": "Does the response fully address the user request?"
+    },
+    {
+      "id": "factual_accuracy",
+      "label": "Factual Accuracy",
+      "weight": 0.3,
+      "scale": { "min": 1, "max": 5 },
+      "guidance": "Are key claims supported by provided or known sources?"
+    },
+    {
+      "id": "instruction_adherence",
+      "label": "Instruction Adherence",
+      "weight": 0.25,
+      "scale": { "min": 1, "max": 5 },
+      "guidance": "Does the response follow format, length, and constraint rules?"
+    },
+    {
+      "id": "clarity",
+      "label": "Clarity and Usefulness",
+      "weight": 0.15,
+      "scale": { "min": 1, "max": 5 },
+      "guidance": "Is the response clear, organized, and usable?"
+    }
+  ],
+  "required_fields": [
+    "pair_id",
+    "preferred_response",
+    "scores",
+    "evidence_notes",
+    "reviewer"
+  ]
+}
