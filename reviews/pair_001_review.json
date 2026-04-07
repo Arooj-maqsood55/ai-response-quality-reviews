@@ -1,0 +1,10 @@
+{
+  "pair_id": "pair_001",
+  "reviewer": "Arooj Maqsood",
+  "scores": {
+    "response_a": {"task_completion": 5, "factual_accuracy": 4, "instruction_adherence": 5, "clarity": 5},
+    "response_b": {"task_completion": 1, "factual_accuracy": 1, "instruction_adherence": 1, "clarity": 2}
+  },
+  "preferred": "response_a",
+  "notes": "Response A follows the 3-bullet/citation instruction and stays grounded. Response B ignores format and makes unsupported claims."
+}
